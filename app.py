@@ -3,10 +3,10 @@ app=Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Are you Hanpee"
+    return "Please success"
 
 @app.route("/option1")
 def op1():
-    return "I am hanpee"
+    return "Lets go"
 if __name__=="__main__":
     app.run()
